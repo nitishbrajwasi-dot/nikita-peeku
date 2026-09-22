@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A heartfelt, stylized love letter page dedicated to Nikita — Meri Peeku." />
+  <title>Nikita — Meri Peeku ❤️</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400;500&display=swap');
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:#f8e8d1;background:#0c080b;font-family:Poppins,Arial,sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:42px 42px}
+    body:after{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 15%,rgba(202,154,89,.17),transparent 28%),radial-gradient(circle at 15% 75%,rgba(135,55,75,.12),transparent 30%)}
+    nav{position:fixed;top:0;left:0;right:0;z-index:20;text-align:center;padding:16px}
+    nav a{display:inline-block;text-decoration:none;color:#e8c98f;border:1px solid rgba(232,201,143,.32);border-radius:30px;padding:8px 17px;background:rgba(12,8,11,.72);font-size:12px;backdrop-filter:blur(8px)}
+    .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:80px 20px 50px;text-align:center;position:relative}
+    .glow{position:absolute;width:300px;height:300px;border-radius:50%;background:rgba(196,145,78,.08);filter:blur(45px)}
+    .card{position:relative;max-width:850px;padding:55px 30px;border:1px solid rgba(218,177,103,.3);border-radius:30px;background:rgba(30,17,18,.72);backdrop-filter:blur(7px);box-shadow:0 25px 100px rgba(0,0,0,.55)}
+    .eyebrow{color:#d9b36c;letter-spacing:5px;text-transform:uppercase;font-size:11px}
+    h1{font-family:"Playfair Display",serif;font-weight:400;font-size:clamp(48px,11vw,94px);line-height:1.05;margin:18px 0 8px;color:#f1d39b}
+    .peeku{font-family:"Cormorant Garamond",serif;font-size:31px;font-style:italic;color:#d9a96e}
+    .hero p{font-family:"Cormorant Garamond",serif;font-size:24px;line-height:1.7}
+    .btn{display:inline-block;margin-top:25px;padding:13px 25px;border-radius:30px;border:1px solid #bd9251;color:#f5dba9;text-decoration:none;transition:.35s;background:#201214}
+    .btn:hover{transform:translateY(-3px);box-shadow:0 8px 30px #0008}
+    section{max-width:900px;margin:auto;padding:95px 22px}
+    .section-title{text-align:center;font-family:"Playfair Display",serif;font-weight:400;font-size:39px;color:#e7c78c}
+    .sub{text-align:center;color:#a99178;font-size:13px;letter-spacing:2px}
+    .letter{margin-top:35px;padding:40px 30px;border-radius:25px;border:1px solid rgba(218,177,103,.25);background:linear-gradient(145deg,rgba(45,25,22,.9),rgba(19,11,14,.9));box-shadow:0 18px 60px #0007}
+    .letter p{font-family:"Cormorant Garamond",serif;font-size:22px;line-height:1.9;margin:0 0 22px}
+    .highlight{text-align:center;font-size:27px!important;color:#f0c987;margin:35px 0!important}
+    .poem{text-align:center;padding:35px 20px;font-family:"Cormorant Garamond",serif;font-size:25px;line-height:2;color:#ecd3a5}
+    .heart{text-align:center;font-size:35px;margin:25px 0;animation:pulse 1.8s infinite}
+    @keyframes pulse{50%{transform:scale(1.12);opacity:.72}}
+    .final{text-align:center;min-height:75vh;display:flex;flex-direction:column;justify-content:center}
+    .final .big{font-family:"Playfair Display",serif;font-size:clamp(30px,6vw,58px);line-height:1.3;color:#f0d19b}
+    .signature{font-family:"Cormorant Garamond",serif;font-size:27px;font-style:italic;color:#d5ae73;margin-top:30px}
+    footer{text-align:center;padding:35px;color:#806b58;font-size:12px}
+    @media(max-width:600px){.card{padding:45px 20px}.letter{padding:30px 21px}.letter p{font-size:19px}.poem{font-size:21px}}
+  </style>
+</head>
+<body>
+  <nav aria-label="Primary navigation"><a href="#letter">For Peeku ↓</a></nav>
+  <header class="hero" role="banner">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="card" role="region" aria-labelledby="hero-title">
+      <div class="eyebrow">A little piece of my heart</div>
+      <h1 id="hero-title">Nikita</h1>
+      <div class="peeku">Meri Peeku ❤️</div>
+      <p>Kuch feelings aisi hoti hain,<br>jinhe kehne ke liye words hamesha kam pad jaate hain.</p>
+      <a class="btn" href="#letter">Read my heart ✦</a>
+    </div>
+  </header>
+  <main>
+    <section id="letter" aria-labelledby="letter-title">
+      <div class="sub">FROM MY HEART</div>
+      <h2 id="letter-title" class="section-title">Meri Peeku ke naam</h2>
+      <article class="letter" aria-label="Love letter">
+        <p><strong>Meri Peeku,</strong></p>
+        <p>Pata nahi kab tum meri zindagi ka itna khoobsurat hissa ban gayi, par aaj itna zaroor jaanta hoon ki tum mere liye bahut hi khaas ho.</p>
+        <p>Tumhe jab main <strong>Peeku</strong> kehta hoon na, toh us naam mein sirf ek nickname nahi, balki woh saari warmth hai jo tumhare liye mere dil mein hai.</p>
+        <p>Mere liye tum bahut precious ho — shayad itni ki kabhi-kabhi words bhi chhote pad jaate hain.</p>
+        <div class="heart" aria-hidden="true">♡</div>
+        <p>Tum mein mujhe <strong>Radhey</strong> ki woh komalta, shanti aur prem ki jhalak dikhti hai jise dekhkar mann bas thoda aur shaant ho jaata hai.</p>
+        <div class="poem" aria-hidden="true">“Tum chand nahi,<br>kyunki chand ko toh raat ki zarurat padti hai;<br>tum woh ujiyara ho,<br>jiske hone se raat bhi khoobsurat lagti hai.”</div>
+        <p>Main tumse kuch maangne nahi aaya, bas apne dil ki ek sachchi baat kehna chahta hoon —</p>
+        <p class="highlight"><strong>I love you, Peeku. ❤️</strong></p>
+        <p>Ye kehna mere liye koi filmy dialogue nahi hai. Ye bas ek simple sa confession hai ki tum mere liye ordinary nahi ho.</p>
+        <p>Tumhari smile, tumhari baatein, tumhara simple sa hona — ye sab mere liye bahut precious hai.</p>
+        <p>Aur agar prem ka matlab sirf kisi ko paana nahi, balki uski khushi, respect aur sukoon ki dil se care karna hai, toh haan…</p>
+        <p class="highlight"><strong>main tumse prem karta hoon.</strong></p>
+        <p>Bas itna hi kehna tha, Peeku — <strong>tum meri zindagi ki sabse khoobsurat feelings mein se ek ho.</strong></p>
+        <p class="signature">— tumhara, dil se</p>
+      </article>
+    </section>
+    <section class="final" aria-labelledby="final-title">
+      <div class="sub">ONE LAST THING</div>
+      <div id="final-title" class="final big">“Tum mere liye<br>bahut kimti ho.”</div>
+      <div class="heart" aria-hidden="true">♥</div>
+      <p style="color:#b9a18a;line-height:1.9">May your smile always remain this beautiful,<br>and may life always give you reasons to smile.</p>
+    </section>
+  </main>
+  <footer role="contentinfo">Made with a little courage, a lot of feelings &nbsp;✦&nbsp; For Nikita, my Peeku</footer>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const el=document.querySelector(a.getAttribute('href'));
+        if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});el.setAttribute('tabindex','-1');el.focus({preventScroll:true});}
+      });
+    });
+  </script>
+</body>
+</html>
